@@ -1,0 +1,56 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtualenv
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS stopy
+.DS_Store
+Thumbs.db
+
+# dotenv / config
+.env
+.env.*
+
+# mypy / pyright / pytest / coverage / profiling
+.mypy_cache/
+.pyright/
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+*.prof
+
+# Logs
+*.log
+
+# Database
+*.sqlite3
+*.db
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pydantic cache
+__pydantic__/  
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
